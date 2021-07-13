@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/**********************
+       Home Page
+***********************/
+
+.home-page{
+    height: 677px;
+    display: flex;
+    background-color:  #2D25A0;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    color: #FFFFFF; 
+    font-size: 64px;
+    line-height: 80px;
+}
+button{
+    width: 168px;
+    height: 44px;
+    margin-top: 27px;
+    background: #E02C6D;
+}
+a{
+    text-decoration: none;
+    color:  #FFFFFF;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 8px;  
+    
+}
+.fa-arrow-right{
+    color:  #FFFFFF;
+    
+}
+.head-image{
+    margin-left: 102px;
+}
+.head-image img{
+    margin-top: 39px;
+    margin-right: 0;
+    margin-bottom: 156px;
+    width: 556.01px;
+    height: 438px;
+}
+/**********************
+      End Home Page
+***********************/
+
+/**********************
+       Players Bio
+***********************/
+
