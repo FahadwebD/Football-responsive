@@ -6,6 +6,10 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+ main{
+     display: flex;
+     flex-direction: column;
+ }
 
 /**********************
        Home Page
@@ -61,6 +65,7 @@ a{
 ***********************/
 .container{
     display: flex;
+    flex-direction: column;
     background-color: #FFFFFF;
     align-items: center;
     justify-content: center;
@@ -115,4 +120,35 @@ p{
 /**********************
     End Of Player Bio
     *******************/
-    
+/**********************
+    blogs part
+    *******************/
+
+.blogs{
+    margin-top: 165px;
+    display: flex;
+    flex-direction: row;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+    margin-left: 182px;
+    margin-right: 156px;
+}
+#blogs-heading{
+    font-size: 48px;
+    line-height: 60px;
+    color: #0A0826;
+
+}
+.blogs .blogs-image img{
+    margin-left: 66px;
+    width: 567px;
+    height: 427px;
+}
+/**********************
+    End blogs part
+    *******************/
+
+ /**********************
+    start footer part
+ *******************/
