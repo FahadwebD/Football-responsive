@@ -73,6 +73,7 @@ a{
 .players-bio{
     display: grid;
     grid-template-columns: repeat(3 , 1fr);
+    grid-column-gap: 30px;
     grid-row-gap: 27px;
     background-color: #FFFFFF;
     margin-top: 70px;
@@ -83,7 +84,7 @@ a{
     flex-direction: column;
     padding-top: 15px;
     padding-bottom: 30px;
-    margin-right: 30px;
+    
     align-items: center;
     width: 330px;
     height: 474px;
@@ -152,3 +153,32 @@ p{
  /**********************
     start footer part
  *******************/
+ footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin-top: 170.42px;
+     margin-bottom: 63px;
+ }
+ .logo img{
+    width: 483.87px;
+    height: 110px;
+ }
+ .fab{
+     height: 32px;
+     width: 32px;
+     margin-right: 21px;
+     background: #969bab44;
+     align-items: center;
+    
+    
+ }
+ .fa-facebook{
+    height: 17.066843032836914px;
+    width: 17.066667556762695px;
+    padding: 5px;
+    border-radius: 0px;
+    color:  #969BAB;
+    border-radius: 50%;
+
+ }
