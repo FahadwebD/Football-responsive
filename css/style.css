@@ -259,6 +259,43 @@ p{
 /**********************
     End blogs part
     *******************/
+    /**********
+    start extra parts
+    ********/
+
+    .social-links{
+        display: flex;
+        flex-wrap: wrap;
+        padding: 5%;
+        justify-content: space-between;
+        margin-top: 40px;
+    }
+    .social-links section{
+        flex-basis: 30%;
+    }
+    
+    .instagram img{
+        height: 50px;
+        width: 50px;
+        padding: 5px;
+    }
+    .e-buttons{
+        display: block;
+    
+        color: #E02C6D;
+        font-size: 14px;
+        font-weight: bolder;
+        background-color: white;
+        margin: 20px auto;
+        padding: 10px 20px;
+        cursor: pointer;
+    }
+    .e-buttons:hover{
+        
+        border: 1px solid #fff;
+        background-color: #2196f3;
+    }
+    
 
  /**********************
     start footer part
@@ -445,6 +482,12 @@ p{
         width: 261px;
 height: 63px;
     }
+    .social-links{
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: block;
+        align-items: center;
+    }
 }
 /**********************
     Tablet screen
@@ -566,5 +609,11 @@ height: 63px;
     .logo img{
         width: 261px;
        height: 63px;
+    }
+    .social-links{
+        flex-direction: column;
+        flex-wrap: wrap;
+        display: block;
+        align-items: center;
     }
 }
