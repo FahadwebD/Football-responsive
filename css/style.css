@@ -23,6 +23,17 @@ nav{
     height: 80px;
     width: 100%;
     position: fixed;
+    
+}
+.fas{
+    
+    margin-right: 8px;
+}
+.fa-sign-in-alt{
+    width: 17px;
+height: 16px;
+color: #FFFFFF;
+
 }
 .login{
     float: right;
@@ -43,7 +54,7 @@ nav ul li{
     margin: 0 ;
     margin-right: 36px;
 }
-nav ul li a{
+#head-a{
     padding:  7px 13px;
     font-weight: 500;
 font-size: 16px;
@@ -238,6 +249,33 @@ p{
     border-radius: 50%;
 
  }
+ .fa-instagram{
+    height: 17.066843032836914px;
+    width: 17.066667556762695px;
+    padding: 5px;
+    border-radius: 0px;
+    color:  #969BAB;
+    border-radius: 50%;
+
+ }
+ .fa-twitter{
+    height: 17.066843032836914px;
+    width: 17.066667556762695px;
+    padding: 5px;
+    border-radius: 0px;
+    color:  #969BAB;
+    border-radius: 50%;
+
+ }
+ .fa-linkedin{
+    height: 17.066843032836914px;
+    width: 17.066667556762695px;
+    padding: 5px;
+    border-radius: 0px;
+    color:  #969BAB;
+    border-radius: 50%;
+
+ }
  /**********************
     end footer part
  *******************/
@@ -262,7 +300,7 @@ p{
      }
      .home-page .headline h1{
         font-size: 36px;
-        margin-bottom: 0%;
+        margin-bottom: 10px;
         margin-top: 0px;
         line-height: 40px;
      }
