@@ -467,12 +467,12 @@ p{
     }
     .home-page .headline{
         display: inline-block;
-        margin-right: 60px;
+        
         margin-top: 5px;
     }
     .home-page .headline h1{
         
-        width: 278px;
+        width: 10px;
         left: 16px;
         line-height: 70px;
     }
@@ -498,6 +498,7 @@ p{
       align-items: center;
       justify-content: center;
       margin-left: 10px;
+      width: 100%;
       
   }
   .players-bio{
@@ -634,6 +635,7 @@ p{
       align-items: center;
       justify-content: center;
       margin-left: 10px;
+      width: 100%;
       
   }
   
