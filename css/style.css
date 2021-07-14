@@ -6,6 +6,9 @@
 body{
     font-family: 'Poppins', sans-serif;
 }
+html{
+    scroll-behavior: smooth;
+}
  main{
      display: flex;
      flex-direction: column;
@@ -23,6 +26,8 @@ nav{
     height: 80px;
     width: 100%;
     position: fixed;
+    top: 0;
+    z-index: 1;
     
 }
 .fas{
@@ -208,10 +213,12 @@ p{
     color: #0A0826;
 
 }
-.blogs .blogs-image img{
+.blogs .blogs-image video{
     margin-left: 66px;
     width: 567px;
     height: 427px;
+    box-shadow: 0 10px #2D25A0 inset,0 -10px #2D25A0 inset, -10px 0 #E02C6D inset, 10px 0 #E02C6D inset;
+    
 }
 /**********************
     End blogs part
@@ -410,7 +417,7 @@ p{
         margin-bottom: 29px;
         
     }
-    .blogs .blogs-image img{
+    .blogs .blogs-image video{
         width: 328px;
         height: 248px;
         margin-left: 1px;
