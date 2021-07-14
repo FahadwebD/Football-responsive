@@ -10,7 +10,62 @@ body{
      display: flex;
      flex-direction: column;
  }
-
+ header{
+     margin: 0%;
+     padding: 0%;
+     text-decoration: none;
+     list-style: none;
+     box-sizing: border-box;
+     
+ }
+nav{
+    background-color: #2D25A0;
+    height: 80px;
+    width: 100%;
+    position: fixed;
+}
+.login{
+    float: right;
+    height: 44px;
+    width: 123px ;
+    
+    padding:10px, 24px, 10px, 24px;
+    margin-right: 124px;
+}
+nav ul{
+    float: left;
+    margin-left: 161px;
+    
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 ;
+    margin-right: 36px;
+}
+nav ul li a{
+    padding:  7px 13px;
+    font-weight: 500;
+font-size: 16px;
+line-height: 24px;
+}
+ a:hover{
+    background: #a0256280;
+    transition: .5s;
+    border-radius: 5px;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    float: left;
+    line-height: 80px;
+    margin-left: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
 /**********************
        Home Page
 ***********************/
@@ -21,6 +76,7 @@ body{
     background-color:  #2D25A0;
     justify-content: center;
     align-items: center;
+    margin-top: 67px;
 }
 
 h1{
@@ -182,3 +238,158 @@ p{
     border-radius: 50%;
 
  }
+ /**********************
+    end footer part
+ *******************/
+ /**********************
+    Media screen part
+ *******************/
+ @media (max-width: 952px) {
+     .login{
+         width: 89px;
+         height: 32px;
+     }
+     nav ul{
+        margin-left: 0%;
+    }
+     nav ul li a{
+         font-size: 16px;
+        }
+     .home-page{
+         display: flex;
+         flex-direction: row;
+         flex-wrap: wrap;      
+     }
+     .home-page .headline h1{
+        font-size: 36px;
+        margin-bottom: 0%;
+        margin-top: 0px;
+        line-height: 40px;
+     }
+
+   .container , .blogs{
+         display: none;
+     }
+     footer{
+         display:none;
+     }
+ }
+ @media (max-width: 858px) {
+     .checkbtn{
+         display: block;
+     }
+     
+     nav ul{
+         margin-left: 0%;
+     }
+     ul{
+         position: fixed;
+         width: 100%;
+         height: 100vh;
+         background: #2D25A0;
+         margin-left: 0%;
+         top:80px;
+         left: -100%;
+         text-align: center;
+         transition: all .5s;
+     }
+     nav ul li{
+         display: block;
+         margin: 50px 0;
+         line-height: 30px;
+     }
+     nav ul li a{
+         font-size: 20px;
+     }
+     a:hover, a.active{
+         background: none;
+         color: #2D25A0;
+     }
+     .login{
+         margin-right: 21px;
+         
+     }
+     #check:checked ~ ul{
+         left: 0;
+         background: #2d25a0a8;
+         margin-left: 0%;
+     }
+     .home-page{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 695px;
+             
+    }
+    .home-page .headline{
+        display: inline-block;
+        margin-right: 60px;
+        margin-top: 5px;
+    }
+    .home-page .headline h1{
+        height: 138px;
+        width: 278px;
+        left: 16px;
+        line-height: 40px;
+    }
+
+    .home-page .head-image img{
+        width: 329px;
+       height: 259.17px;
+       margin-bottom: 61px;
+       
+    }
+    .home-page .head-image{
+        margin-left: 15px;
+        width: 329px;
+        height: 259.17px;
+    }
+ body{
+     margin: 0%;
+     padding: 0%;
+ }
+  .container{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      
+  }
+  .players-bio{
+      display: flex;
+      flex-direction: column;
+  }
+   .blogs{
+        display: flex;
+        flex-direction: column;
+        flex-direction: column-reverse;
+        margin-top: 60px;
+        margin-left: 15px;
+        margin-right: 16px;
+        
+    }
+    .blogs .blogs-description{
+        margin-bottom: 29px;
+        
+    }
+    .blogs .blogs-image img{
+        width: 328px;
+        height: 248px;
+        margin-left: 1px;
+        padding-left: 0%;
+    }
+    footer{
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .logo img{
+        width: 261px;
+height: 63px;
+    }
+}
+@media (max-width: 952px) {
+     
+}
