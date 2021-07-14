@@ -297,6 +297,56 @@ p{
     }
     
 
+
+    .news{
+        display: flex;
+        flex-direction: row;
+        margin-top: 100px;
+        
+    }
+    .main-news{
+      display: grid;
+      grid-template-columns: repeat(3 ,1fr);
+      grid-column-gap: 20px;
+      grid-row-gap: 20px;
+      
+
+    }
+    .post{
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        height: 400px;
+        align-items: center;
+        margin-left: 5px;
+        
+        box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+        padding: 2px;
+    }
+    .post .post-image img{
+        height: 200px;
+        width: 300px;
+    } 
+    #line{
+        display: block;
+          
+        width: 130px;
+        height: 3px;
+        background-color: gray;
+        margin-bottom: 20px;
+        margin-left: px;
+        
+    }
+    .recent-news{
+        align-items: center;
+        width: 200px;
+        margin-left: 10px;
+        padding-left: 10px;
+    }
+
+
+
+
  /**********************
     start footer part
  *******************/
@@ -366,6 +416,9 @@ p{
     Mobile Screen
  *******************/
  @media (max-width: 758px) {
+     .main{
+         width: 100%;
+     }
      .checkbtn{
          display: block;
      }
@@ -480,7 +533,7 @@ p{
     }
     .logo img{
         width: 261px;
-height: 63px;
+        height: 63px;
     }
     .social-links{
         flex-direction: column;
@@ -488,7 +541,16 @@ height: 63px;
         display: block;
         align-items: center;
     }
+    .news{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-news{
+        display: flex;
+        flex-direction: column;
+    }
 }
+
 /**********************
     Tablet screen
  *******************/
@@ -615,5 +677,13 @@ height: 63px;
         flex-wrap: wrap;
         display: block;
         align-items: center;
+    }
+    .news{
+        display: flex;
+        flex-direction: column;
+    }
+    .main-news{
+        display: flex;
+        flex-direction: column;
     }
 }
