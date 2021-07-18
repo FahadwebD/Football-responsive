@@ -111,6 +111,7 @@ h1{
     color: #FFFFFF; 
     font-size: 64px;
     line-height: 80px;
+   
 }
 
 .h-buttons{
@@ -153,6 +154,11 @@ a{
     margin-bottom: 156px;
     width: 556.01px;
     height: 438px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.head-image:hover .h-image{
+    transform: rotate(360deg);
 }
 /**********************
       End Home Page
@@ -188,6 +194,12 @@ a{
     height: 474px;
     background: #FFFFFF;
     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+    transition: 0.5s;
+}
+.player:hover{
+    transform: scale(1.1);
+    
+   
 }
 .player-description{
     width: 300px;
@@ -278,6 +290,11 @@ p{
         height: 50px;
         width: 50px;
         padding: 5px;
+        transition: 0.2s;
+    }
+    #insta-photo:hover{
+        transform:scale(1.1);
+        cursor: pointer;
     }
     .e-buttons{
         display: block;
@@ -322,6 +339,10 @@ p{
         
         box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
         padding: 2px;
+        transition: 0.2s;
+    }
+    .post:hover{
+        transform: scaleX(1.1);
     }
     .post .post-image img{
         height: 200px;
@@ -334,14 +355,28 @@ p{
         height: 3px;
         background-color: gray;
         margin-bottom: 20px;
-        margin-left: px;
+        
         
     }
     .recent-news{
         align-items: center;
         width: 200px;
+        height: 400px;
         margin-left: 10px;
         padding-left: 10px;
+        overflow-y: scroll;
+        transition: 0.6s;
+    }
+    .recent-news:hover{
+        transform: scale(1.2);
+        
+    }
+    #recent-news-d{
+        color: blue;
+        cursor: pointer;
+    }
+    #recent-news-d:hover{
+        color:brown
     }
 
 
@@ -360,15 +395,24 @@ p{
  .logo img{
     width: 483.87px;
     height: 110px;
+    transition: 0.7s;
+ }
+ .logo img:hover{
+     transform: translateY(-20px)
  }
  .fab{
-     height: 32px;
-     width: 32px;
+     
      margin-right: 21px;
      background: #969bab44;
      align-items: center;
-    
-    
+     width: 50px;
+    height: 50px;
+    text-align: center;
+    vertical-align: bottom;
+    transition: 0.5s;
+ }
+ .fab:hover{
+     background-color: #2D25A0;
  }
  .fa-facebook{
     height: 17.066843032836914px;
@@ -377,7 +421,11 @@ p{
     border-radius: 0px;
     color:  #969BAB;
     border-radius: 50%;
-
+    align-items: center;
+ transition: 0.2s;
+ }
+ .fa-facebook:hover{
+    transform: translateY(-5px)
  }
  .fa-instagram{
     height: 17.066843032836914px;
@@ -386,7 +434,11 @@ p{
     border-radius: 0px;
     color:  #969BAB;
     border-radius: 50%;
+    transition: 0.2s;
 
+ }
+ .fa-instagram:hover{
+    transform: translateY(-5px)
  }
  .fa-twitter{
     height: 17.066843032836914px;
@@ -395,7 +447,11 @@ p{
     border-radius: 0px;
     color:  #969BAB;
     border-radius: 50%;
+    transition: 0.2s;
 
+ }
+ .fa-twitter:hover{
+    transform: translateY(-5px)
  }
  .fa-linkedin{
     height: 17.066843032836914px;
@@ -404,7 +460,11 @@ p{
     border-radius: 0px;
     color:  #969BAB;
     border-radius: 50%;
+    transition: 0.2s;
 
+ }
+ .fa-linkedin:hover{
+    transform: translateY(-5px)
  }
  /**********************
     end footer part
@@ -497,15 +557,18 @@ p{
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-left: 10px;
+      
       width: 100%;
       
   }
   .players-bio{
       display: flex;
       flex-direction: column;
+      margin: 10px;
   }
-  
+  .players-bio>* {
+    flex: 1 1;
+}
    .blogs{
         display: flex;
         flex-direction: column;
@@ -545,6 +608,10 @@ p{
     .news{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .news>* {
+        flex: 1 1;
     }
     .main-news{
         display: flex;
@@ -634,7 +701,7 @@ p{
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      margin-left: 10px;
+      
       width: 100%;
       
   }
@@ -643,7 +710,13 @@ p{
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
+     
+      
   }
+  .players-bio>* {
+    flex: 1 1;
+}
+
    .blogs{
         display: flex;
         flex-direction: column;
@@ -683,6 +756,10 @@ p{
     .news{
         display: flex;
         flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .news>* {
+        flex: 1 1;
     }
     .main-news{
         display: flex;
